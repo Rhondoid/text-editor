@@ -27,4 +27,12 @@ warmStrategyCache({
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
+new offlineFallback({
+  cacheName:"asset-cache",
+  plugins: [
+    new CacheableResponsePlugin({
+      statuses: [0,200],
+    })
+  ]
+})
 registerRoute();
