@@ -24,11 +24,13 @@ module.exports = () => {
         template: "./index.html",
         title: "Webpack Plugin",
       }),
-      new WorkboxPlugin.GenerateSW({
-        option: "value",
-      }),
+      // new WorkboxPlugin.GenerateSW({
+      //   option: "value",
+      // }),
       new WebpackPwaManifest(),
-      new InjectManifest(),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+      })
     ],
     module: {
       rules: [
