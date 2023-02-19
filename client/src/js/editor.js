@@ -29,7 +29,7 @@ export default class {
       console.log(data);
       console.log(localData);
       console.log(header);
-      this.editor.setValue(data || localData || header);
+      this.editor.setValue(data.jate || localData || header);
     });
 
     this.editor.on("change", () => {
