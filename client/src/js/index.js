@@ -26,7 +26,7 @@ if (typeof editor === 'undefined') {
   loadSpinner();
 }
 
-export const registerSW = () => {
+
 // Check if service workers are supported
 if ('serviceWorker' in navigator) {
   // register workbox service worker
@@ -36,4 +36,4 @@ if ('serviceWorker' in navigator) {
 } else {
   console.error('Service workers are not supported in this browser.');
 }
-};
+
