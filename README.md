@@ -36,7 +36,7 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 
 #Installation
-This program has been deployed to Heroku and can be found here  
+This program has been deployed to Heroku and can be found here  https://text-editor-rvd2.herokuapp.com/
 Additionally there is an install button that should download it locally for you.
 
 #Usage- add screenshots, website
@@ -48,4 +48,4 @@ Additionally there is an install button that should download it locally for you.
 #License- MIT
 
 
-#Contributions![image](https://user-images.githubusercontent.com/110504360/219984709-e9ccf5ea-b129-456a-8575-b98ed1c61e41.png)
+
