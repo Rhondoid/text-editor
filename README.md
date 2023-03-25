@@ -75,6 +75,10 @@ Additionally there is an install button that should download it locally for you.
 
 #Usage- 
 
+![image](https://user-images.githubusercontent.com/110504360/227745419-b9986d57-178c-4d29-8a62-9b12605e593f.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/110504360/219986027-2e73d85d-6923-41b9-b4f7-8882edf3897e.png)
 
 
